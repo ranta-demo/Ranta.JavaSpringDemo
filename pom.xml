@@ -2,21 +2,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.ctrip</groupId>
-        <artifactId>super-pom</artifactId>
-        <version>1.0.0</version>
-    </parent>
-
-    <groupId>com.ctrip.tour</groupId>
-    <artifactId>couponplatform-couponmanagement</artifactId>
+    <groupId>cn.savory.demo</groupId>
+    <artifactId>javaspringdemo</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
-    <name>CouponManagement</name>
-    <description>度假优惠平台管理平台</description>
+    <name>JavaSpringDemoProject</name>
+    <description>Java Spring Demo Project</description>
 
     <build>
-        <finalName>couplatform-coupon-management</finalName>
+        <finalName>savory-javaspringdemoproject</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
